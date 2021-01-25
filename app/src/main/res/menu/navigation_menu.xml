@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/nav_songs"
+        android:icon="@mipmap/ic_list_black_24dp"
+        android:title="Songs"/>
+
+    <item android:id="@+id/nav_albums"
+        android:icon="@mipmap/ic_album_black_24dp"
+        android:title="Albums"/>
+
+    <item android:id="@+id/nav_playing"
+        android:icon="@mipmap/ic_equalizer_black_24dp"
+        android:title="Now Playing"/>
+
+    <item android:id="@+id/settings"
+        android:title="Settings and more">
+        <menu>
+            <item android:id="@+id/Themes"
+                android:title="Themes"/>
+
+            <item android:id="@+id/nav_settings"
+                android:title="Settings"/>
+
+        </menu>
+    </item>
+
+</menu>

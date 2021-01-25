@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="#2970cc"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/icon"
+        android:id="@+id/imageView"
+        android:adjustViewBounds="true" />
+
+    <TextView
+        android:text="Music has Power to Change the World"
+        android:layout_width="match_parent"
+        android:textSize="21dp"
+        android:textColor="#ffab24"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:textAlignment="center" />
+
+    <Button
+        android:text="GET STARTED"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:textColor="#f7f6f7"
+        android:layout_gravity="center"
+        android:background="#f7843770"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:onClick="openNew"
+        />
+
+</LinearLayout>
